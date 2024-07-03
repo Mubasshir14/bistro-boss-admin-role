@@ -5,11 +5,11 @@ import img3 from '../../../assets/home/slide3.jpg'
 
 const ShouldTry = () => {
     return (
-        <section className="max-w-screen-lg mx-auto">
+        <section className="max-w-screen-xl mx-auto">
             <SectionTitle heading="Chef Recommends" subHeading="---Should Try---"></SectionTitle>
 
 
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="card card-compact  bg-base-200 shadow-xl ">
                     <figure><img src={img1} alt="Shoes" className="w-[424px] h-[400px]" /></figure>
                     <div className="card-body text-center space-y-4">
